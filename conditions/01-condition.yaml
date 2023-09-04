@@ -11,7 +11,6 @@
   - name: storing the result
     ansible.builtin.debug:
       msg: "output is {{out}}"
-      msg: "print {{output.rc}}"
   - when: out.rc != 0    
   - name: creating a roboshop user
     ansible.builtin.user:
