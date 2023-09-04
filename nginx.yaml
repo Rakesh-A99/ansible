@@ -1,7 +1,7 @@
 #installing nginx
 - name: run and install nginx
   hosts: mongodb
-  task:
+  tasks:
     - name: installing nginx
       ansible.builtin.yum:
         name: nginx
