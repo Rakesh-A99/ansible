@@ -3,7 +3,7 @@
   hostname: mongodb
   task:
     - name: installing nginx
-    ansible.builtin.yum:
+      ansible.builtin.yum:
       name: nginx
       state: installed
     -name: starting nginx
