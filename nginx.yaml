@@ -1,6 +1,6 @@
 #installing nginx
 - name: Installing nginx
-  hostname: mongodb
+  hosts: mongodb
   task:
     - name: installing nginx
       ansible.builtin.yum:
