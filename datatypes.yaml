@@ -1,6 +1,6 @@
 - name: practicing on datatypes in ansible
-- hosts: localhost
-- vars:
+  hosts: localhost
+  vars:
   - AGE: 30 #Number
   - NAME: "Sivakumar" #String
   - isDevOps: true #boolean
