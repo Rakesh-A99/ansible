@@ -12,7 +12,7 @@
       DevOps: 7
       AWS: 5
       Docker: 4
-- tasks:
+  tasks:
   - name: print number variable
     ansible.builtin.debug:
       msg: "{{AGE}}"
