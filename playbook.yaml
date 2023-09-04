@@ -1,0 +1,6 @@
+# writing a play book
+- name: writing a playbook
+  hosts: mongodb
+  tasks:
+  - name: pinging the server
+    ansible.builtin.ping:
