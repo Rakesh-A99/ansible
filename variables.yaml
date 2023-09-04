@@ -1,0 +1,10 @@
+- name: learning how variables works
+  hosts: mongodb
+  vars:
+    course: "Devops with aws"
+    trainer: "siva kumar"
+    duration: "5 months" 
+  tasks:
+  - name: print variables
+    ansible.builtin.debug:
+      msg: "I am learninf {{course}}, trainer is {{trainer}} and duration of couser is {{duration}}"
